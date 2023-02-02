@@ -1,0 +1,25 @@
+{
+  "name": "sportradar-api-challenge-main",
+  "version": "1.0.0",
+  "description": "Coding challenge for Sportsradar interview",
+  "main": "src",
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "player-pipeline": "node build/player/index.js",
+    "team-pipeline": "node build/team/index.js",
+    "test": "jest"
+  },
+  "author": "Blake Jones",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^1.2.6",
+    "ts-node": "^10.9.1"
+  }
+}
